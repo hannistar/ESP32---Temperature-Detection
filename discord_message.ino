@@ -47,9 +47,9 @@ String embedJson = R"({
 void setup() {
   Serial.begin(9600);
   connectWIFI();
-  //sendDiscordMessage(message);
+  sendDiscordMessage(message);
   sendDiscordEmbeds(embedJson);
-  //sendDiscord(message, embedJson);
+  sendDiscord(message, embedJson);
 }
 
 void loop() {
